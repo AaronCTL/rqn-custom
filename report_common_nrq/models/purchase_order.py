@@ -21,3 +21,5 @@ class PurchaseOrder(models.Model):
         res = super(PurchaseOrder, self)._prepare_order()
         res.update({'doc_title': self.doc_title})
         return res
+
+    user_id = fields.Many2one('res.users', string='Salesperson', track_visibility='onchange',default=lambda self: self.env.user)
