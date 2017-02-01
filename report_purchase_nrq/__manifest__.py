@@ -21,6 +21,7 @@
     },
     "depends": [
         "purchase",
+        "report_common_nrq",
     ],
     "data": [
         'report/purchase_report_template.xml'

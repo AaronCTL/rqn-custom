@@ -22,6 +22,7 @@
     "depends": [
         "account",
         "sale",
+        "purchase",
         "base_partner_number",
     ],
     "data": [

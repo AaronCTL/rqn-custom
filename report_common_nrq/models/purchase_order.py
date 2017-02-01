@@ -16,9 +16,8 @@ class PurchaseOrder(models.Model):
         string="Doc Title",
     )
 
-
     @api.multi
-    def _prepare_invoice(self):
-        res = super(PurchaseOrder, self)._prepare_invoice()
+    def _prepare_order(self):
+        res = super(PurchaseOrder, self)._prepare_order()
         res.update({'doc_title': self.doc_title})
         return res
