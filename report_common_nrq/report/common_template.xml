@@ -103,7 +103,7 @@
                                     <span>Effective for one month from the date of quotation.</span>
                                 </p>
                             </t>
-                            <t t-if="type == 'purchase'">
+                            <t t-if="type == 'purchase' and doc.show_user == True">
                                 <p>
                                     Salesperson: <span t-field="doc.user_id.name"/><br/>
                                     <span>Effective for one month from the date of quotation.</span>

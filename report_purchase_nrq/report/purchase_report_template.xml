@@ -11,12 +11,12 @@
                 <table class="table table-condensed">
                         <thead>
                             <tr>
-                                <th><strong>Description</strong></th>
-                                <th class="text-center"><strong>Date Req.</strong></th>
-                                <th class="text-right"><strong>Qty</strong></th>
-                                <th class="text-right"><strong>Unit Price</strong></th>
-                                <th><strong>Taxes</strong></th>
-                                <th class="text-right"><strong>Net Price</strong></th>
+                                <th>Item</th>
+                                <th class="text-center">Date Req.</th>
+                                <th class="text-right">Quantity</th>
+                                <th class="text-right">Unit Price</th>
+                                <th class="text-right">Taxes</th>
+                                <th class="text-right">Net Price</th>
                             </tr>
                         </thead>
                         <tbody>

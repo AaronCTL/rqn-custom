@@ -8,9 +8,8 @@ from odoo import api, fields, models
 class PurchaseOrder(models.Model):
     _inherit = 'purchase.order'
 
-    show_tax = fields.Boolean(
-        string="Show Tax",
-        help="Show tax in printed quotation."
+    show_user = fields.Boolean(
+        string="Show Salesperson",
     )
     doc_title = fields.Char(
         string="Doc Title",
