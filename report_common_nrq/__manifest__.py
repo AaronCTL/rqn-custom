@@ -31,7 +31,6 @@
         'views/res_partner_views.xml',
         'views/sale_order_views.xml',
         'views/account_invoice_views.xml',
-        'views/purchase_order_views.xml',
         'report/common_template.xml',
     ],
     "demo": [
